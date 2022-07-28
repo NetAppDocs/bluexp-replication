@@ -67,9 +67,11 @@ You can replicate data by choosing a one-time data replication, which can help y
 
 .Steps
 
-. On the Canvas page, select the working environment that contains the source volume, and then drag it to the working environment to which you want to replicate the volume.
+. On the Canvas, select the working environment that contains the source volume, drag it to the working environment to which you want to replicate the volume, and then select *Replication*.
 +
-image:screenshot_drag_and_drop.gif[Screen shot: Shows a working environment being placed on top of another working environment to start the data replication process.]
+image:screenshot-drag-and-drop.png[Screen shot: Shows a working environment being placed on top of another working environment to start the data replication process.]
++
+The remaining steps provide an example of how to create a sync relationship between Cloud Volumes ONTAP or on-prem ONTAP clusters.
 
 . *Source and Destination Peering Setup*: If this page appears, select all of the intercluster LIFs for the cluster peer relationship.
 +
