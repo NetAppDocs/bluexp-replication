@@ -16,6 +16,17 @@ summary: Learn what's new with the Replication service.
 Learn what's new with the Replication service.
 
 // tag::whats-new[]
+== 31 July 2022
+
+=== FSx for ONTAP as the data source
+
+You can now replicate data from an Amazon FSx for ONTAP file system to the following destinations:
+
+* Amazon FSx for ONTAP
+* On-premises ONTAP cluster
+
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html[Learn how to set up data replication].
+
 == 2 September 2021
 
 === Support for Amazon FSx for ONTAP

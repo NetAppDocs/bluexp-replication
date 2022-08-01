@@ -48,6 +48,11 @@ Cloud Manager enables data replication between the following types of working en
 * Cloud Volumes ONTAP
 * On-prem ONTAP cluster
 
+| Amazon FSx for ONTAP a|
+
+* Amazon FSx for ONTAP
+* On-prem ONTAP cluster
+
 |===
 
 == How data replication works
