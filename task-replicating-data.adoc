@@ -46,20 +46,16 @@ These rules are included in the predefined security group.
 Requirements specific to ONTAP clusters::
 * An active SnapMirror license must be installed.
 
-* If the cluster is on your premises, you should have a connection from your corporate network to your virtual network in AWS, Azure, or GCP. This is typically a VPN connection.
+* If the cluster is on your premises, you should have a connection from your corporate network to your virtual network in AWS, Azure, or Google Cloud. This is typically a VPN connection.
 
 * ONTAP clusters must meet additional subnet, port, firewall, and cluster requirements.
 +
 https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html[View prerequisites for cluster peering in the ONTAP documentation^]
 
 Requirements specific to Amazon FSx for ONTAP::
-* An Amazon FSx for ONTAP working environment must be the target in the data replication relationship.
-+
-The source can be Cloud Volumes ONTAP or an on-prem ONTAP cluster.
+* If Cloud Volumes ONTAP is part of the relationship, ensure connectivity between VPCs by enabling VPC peering or by using a Transit Gateway.
 
-* If Cloud Volumes ONTAP is the source, ensure connectivity between VPCs by enabling VPC peering or by using a Transit Gateway.
-
-* If an on-prem ONTAP cluster is the source, ensure connectivity between your on-premises network and the AWS VPC by using a Direct Connect or VPN connection.
+* If an on-prem ONTAP cluster is part of the relationship, ensure connectivity between your on-premises network and the AWS VPC by using a Direct Connect or VPN connection.
 
 == Replicate data between systems
 
