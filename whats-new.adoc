@@ -16,6 +16,14 @@ summary: Learn what's new with the Replication service.
 Learn what's new with the Replication service.
 
 // tag::whats-new[]
+== 18 Sept 2022
+
+=== FSx for ONTAP to Cloud Volumes ONTAP
+
+You can now replicate data from an Amazon FSx for ONTAP file system to Cloud Volumes ONTAP.
+
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html[Learn how to set up data replication].
+
 == 31 July 2022
 
 === FSx for ONTAP as the data source
