@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task-replicating-data.html
-keywords: ontap, cluster, discover, manage, cloud manager, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, schedule, relationship, max transfer, maximum transfer rate, rate, transfer rate, intercluster lif, replication requirement, requirements, disaster recovery, DR, archive, archiving, retention, amazon fsx for ontap, fsx for ontap
-summary: You can replicate data between Cloud Manager working environments. You can choose a one-time data replication to move data to and from the cloud, or a recurring schedule for disaster recovery or long-term retention.
+keywords: ontap, cluster, discover, manage, BlueXP, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, schedule, relationship, max transfer, maximum transfer rate, rate, transfer rate, intercluster lif, replication requirement, requirements, disaster recovery, DR, archive, archiving, retention, amazon fsx for ontap, fsx for ontap
+summary: You can replicate data between ONTAP working environments by choosing a one-time data replication for data transfer, or a recurring schedule for disaster recovery or long-term retention. For example, you can set up data replication from an on-prem ONTAP system to Cloud Volumes ONTAP for disaster recovery.
 ---
 
 = Set up data replication
@@ -63,6 +63,8 @@ You can replicate data by choosing a one-time data replication, which can help y
 
 .Steps
 
+. From the navigation menu, select *Storage > Canvas*.
+
 . On the Canvas, select the working environment that contains the source volume, drag it to the working environment to which you want to replicate the volume, and then select *Replication*.
 +
 image:screenshot-drag-and-drop.png[Screen shot: Shows a working environment being placed on top of another working environment to start the data replication process.]
@@ -101,4 +103,4 @@ Several default schedules are available. If you want a different schedule, you m
 
 .Result
 
-Cloud Manager starts the data replication process. You can view details about the volume relationship in the Replication service.
+BlueXP starts the data replication process. You can view details about the volume relationship in the Replication service.
