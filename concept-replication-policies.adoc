@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concept-replication-policies.html
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, disaster recovery, DR
-summary: You can replicate data between Cloud Manager working environments. You can choose a one-time data replication to move data to and from the cloud, or a recurring schedule for disaster recovery or long-term retention.
+summary: You can replicate data between BlueXP working environments. You can choose a one-time data replication to move data to and from the cloud, or a recurring schedule for disaster recovery or long-term retention.
 ---
 
 = Learn about replication policies
@@ -13,7 +13,7 @@ summary: You can replicate data between Cloud Manager working environments. You 
 :imagesdir: ./media/
 
 [.lead]
-You might need help choosing a replication policy when you set up data replication in Cloud Manager. A replication policy defines how the storage system replicates data from a source volume to a destination volume.
+You might need help choosing a replication policy when you set up data replication in BlueXP. A replication policy defines how the storage system replicates data from a source volume to a destination volume.
 
 == What replication policies do
 

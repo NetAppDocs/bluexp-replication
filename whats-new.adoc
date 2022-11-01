@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: whats-new.html
 keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes
-summary: Learn what's new with the Replication service.
+summary: "Learn what's new with the Replication service in BlueXP (formerly Cloud Manager)."
 ---
 
 = What's new
@@ -13,7 +13,7 @@ summary: Learn what's new with the Replication service.
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new with the Replication service.
+Learn what's new with the Replication service in BlueXP (formerly Cloud Manager).
 
 // tag::whats-new[]
 == 18 Sept 2022
