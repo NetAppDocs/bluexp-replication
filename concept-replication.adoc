@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: concept-replication.html
-keywords: ontap, cluster, discover, manage, cloud manager, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, disaster recovery, DR, archive, archiving, retention
+keywords: ontap, cluster, discover, manage, BlueXP, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, disaster recovery, DR, archive, archiving, retention
 summary: NetApp SnapMirror replicates data at high speeds over LAN or WAN, so you get high data availability and fast data replication in both virtual and traditional environments. When you replicate data to NetApp storage systems and continually update the secondary data, your data is kept current and remains available whenever you need it. No external replication servers are required.
 ---
 
@@ -29,7 +29,7 @@ NetApp doesn't charge you for using the Replication service, but you'll need to 
 
 == Supported working environments
 
-Cloud Manager enables data replication between the following types of working environments.
+BlueXP enables data replication between the following types of working environments.
 
 [cols=2*,options="header",cols="30,30"]
 |===
@@ -58,15 +58,15 @@ Cloud Manager enables data replication between the following types of working en
 
 == How data replication works
 
-Cloud Manager simplifies data replication between volumes on separate ONTAP systems using SnapMirror and SnapVault technologies. You simply need to identify the source volume and the destination volume, and then choose a replication policy and schedule.
+BlueXP simplifies data replication between volumes on separate ONTAP systems using SnapMirror and SnapVault technologies. You simply need to identify the source volume and the destination volume, and then choose a replication policy and schedule.
 
-For Cloud Volumes ONTAP, Cloud Manager purchases the required disks, configures relationships, applies the replication policy, and then initiates the baseline transfer between volumes.
+For Cloud Volumes ONTAP, BlueXP purchases the required disks, configures relationships, applies the replication policy, and then initiates the baseline transfer between volumes.
 
 NOTE: The baseline transfer includes a full copy of the source data. Subsequent transfers contain differential copies of the source data.
 
 == Supported data protection configurations
 
-Cloud Manager supports simple, fanout, and cascade data protection configurations:
+BlueXP supports simple, fanout, and cascade data protection configurations:
 
 * In a simple configuration, replication occurs from volume A to volume B.
 

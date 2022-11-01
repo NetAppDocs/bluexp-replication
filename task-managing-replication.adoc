@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-managing-replication.html
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, source, destination, schedule, relationship, break, resync, max transfer, maximum transfer rate, rate, transfer rate, reverse resync, status, replication status, disaster recovery, DR, archive, archiving, retention
-summary: After you set up data replication between two systems, you can manage the data replication schedule and relationship from Cloud Manager.
+summary: After you set up data replication between two systems, you can manage the data replication schedule and relationship from BlueXP.
 ---
 
 = Manage schedules and relationships
@@ -13,11 +13,11 @@ summary: After you set up data replication between two systems, you can manage t
 :imagesdir: ./media/
 
 [.lead]
-After you set up data replication between two systems, you can manage the data replication schedule and relationship from Cloud Manager.
+After you set up data replication between two systems, you can manage the data replication schedule and relationship from BlueXP.
 
 .Steps
 
-. Click *Replication*.
+. From the navigation menu, select *Protection > Replication*.
 
 . Review the status of the data replication relationships to verify that they are healthy.
 +
@@ -63,4 +63,4 @@ Any data written to the original source volume between the last data replication
 
 .Result
 
-After you select an action, Cloud Manager updates the relationship or schedule.
+After you select an action, BlueXP updates the relationship or schedule.
