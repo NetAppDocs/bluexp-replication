@@ -22,7 +22,7 @@ Learn what's new with the Replication service in BlueXP (formerly Cloud Manager)
 
 You can now replicate data from an Amazon FSx for ONTAP file system to Cloud Volumes ONTAP.
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html[Learn how to set up data replication].
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html[Learn how to set up data replication].
 
 == 31 July 2022
 
@@ -33,7 +33,7 @@ You can now replicate data from an Amazon FSx for ONTAP file system to the follo
 * Amazon FSx for ONTAP
 * On-premises ONTAP cluster
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html[Learn how to set up data replication].
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html[Learn how to set up data replication].
 
 == 2 September 2021
 
@@ -41,7 +41,7 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 You can now replicate data from a Cloud Volumes ONTAP system or an on-premises ONTAP cluster to an Amazon FSx for ONTAP file system.
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html[Learn how to set up data replication].
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html[Learn how to set up data replication].
 // end::whats-new[]
 
 == 5 May 2021
@@ -50,4 +50,4 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 We redesigned the Replication tab for ease of use and to match the current look and feel of the Cloud Manager user interface.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-replication/main/media/replication.gif[A screenshot of the redesigned Replication tab in Cloud Manager that shows a list of volume relationships.]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-replication/main/media/replication.gif[A screenshot of the redesigned Replication tab in Cloud Manager that shows a list of volume relationships.]
