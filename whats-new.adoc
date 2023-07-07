@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: whats-new.html
 keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes
-summary: "Learn what's new with the Replication service in BlueXP (formerly Cloud Manager)."
+summary: Learn what's new with BlueXP replication.
 ---
 
 = What's new
@@ -13,7 +13,7 @@ summary: "Learn what's new with the Replication service in BlueXP (formerly Clou
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new with the Replication service in BlueXP (formerly Cloud Manager).
+Learn what's new with BlueXP replication.
 
 // tag::whats-new[]
 == 18 Sept 2022
@@ -48,6 +48,6 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html[Lear
 
 === Redesigned interface
 
-We redesigned the Replication tab for ease of use and to match the current look and feel of the Cloud Manager user interface.
+We redesigned the replication service for ease of use and to match the current look and feel of the user interface.
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-replication/main/media/replication.gif[A screenshot of the redesigned Replication tab in Cloud Manager that shows a list of volume relationships.]
