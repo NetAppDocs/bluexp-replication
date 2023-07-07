@@ -6,7 +6,7 @@ lead: Replicate data between ONTAP storage systems to support backup and disaste
 summary: Replicate data between ONTAP storage systems to support backup and disaster recovery to the cloud or between clouds.
 ---
 
-= Replication documentation
+= BlueXP replication documentation
 :hardbreaks:
 :nofooter:
 :icons: font
