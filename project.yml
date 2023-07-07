@@ -1,5 +1,5 @@
 settings:
-  name: Replication
+  name: BlueXP replication
   platform: cloud
   internal:
     pdf_enabled: true
@@ -8,13 +8,13 @@ settings:
   rss_page: "whats-new.html"
 sidebar:
   entries:
-    - title: Replication docs
+    - title: BlueXP replication docs
       url: /index.html
     - title: Release notes
       url: /whats-new.html
     - title: Get started
       entries:
-        - title: Learn about the Replication service
+        - title: Learn about BlueXP replication
           url: /concept-replication.html
         - title: Set up data replication
           url: /task-replicating-data.html
@@ -42,11 +42,11 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: Learn about the Replication service
+        - title: Learn about BlueXP replication
           url: concept-replication.html
         - title: Set up data replication
           url: task-replicating-data.html
-    - title: Use the Replication service
+    - title: Use BlueXP replication
       links:
         - title: Manage data replication
           url: task-managing-replication.html
