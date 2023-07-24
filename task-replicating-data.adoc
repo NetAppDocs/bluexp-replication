@@ -89,7 +89,7 @@ If the destination is an ONTAP cluster, you must also specify the destination st
 +
 You should limit the transfer rate. An unlimited rate might negatively impact the performance of other applications and it might impact your internet performance.
 
-. *Replication Policy*: Choose a default policy or click *Additional Policies*, and then select one of the advanced policies.
+. *Replication Policy*: Choose a default policy or select *Additional Policies*, and then select one of the advanced policies.
 +
 For help, link:concept-replication-policies.html[learn about replication policies].
 +
@@ -99,7 +99,7 @@ If you choose a custom backup (SnapVault) policy, the labels associated with the
 +
 Several default schedules are available. If you want a different schedule, you must create a new schedule on the _destination_ cluster using System Manager.
 
-. *Review*: Review your selections and click *Go*.
+. *Review*: Review your selections and select *Go*.
 
 .Result
 
