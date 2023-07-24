@@ -23,7 +23,7 @@ After you set up data replication between two systems, you can manage the data r
 +
 NOTE: If the Status of a relationship is idle and the Mirror State is uninitialized, you must initialize the relationship from the destination system for the data replication to occur according to the defined schedule. You can initialize the relationship by using System Manager or the command-line interface (CLI). These states can appear when the destination system fails and then comes back online.
 
-. Click the action menu for a volume relationship and choose one of the available actions.
+. Select the action menu for a volume relationship and choose one of the available actions.
 +
 image:screenshot_replication_managing.gif[Screen shot: Shows the list of actions available from the Replication Status page.]
 +
