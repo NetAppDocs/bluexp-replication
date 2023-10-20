@@ -15,7 +15,7 @@ summary: You can replicate data between ONTAP working environments by choosing a
 [.lead]
 You can replicate data between ONTAP working environments by choosing a one-time data replication for data transfer, or a recurring schedule for disaster recovery or long-term retention. For example, you can set up data replication from an on-prem ONTAP system to Cloud Volumes ONTAP for disaster recovery.
 
-== Data replication requirements
+== Step 1: Review data replication requirements
 
 Before you can replicate data, you should confirm that specific requirements are met for Cloud Volumes ONTAP, on-prem ONTAP clusters, or Amazon FSx for ONTAP.
 
@@ -57,7 +57,7 @@ Requirements specific to Amazon FSx for ONTAP::
 
 * If an on-prem ONTAP cluster is part of the relationship, ensure connectivity between your on-premises network and the AWS VPC by using a Direct Connect or VPN connection.
 
-== Replicate data between systems
+== Step 2: Replicate data between systems
 
 You can replicate data by choosing a one-time data replication, which can help you move data to and from the cloud, or a recurring schedule, which can help with disaster recovery or long-term retention.
 
