@@ -12,7 +12,9 @@ sidebar:
     - title: BlueXP replication docs
       url: /index.html
     - title: Release notes
-      url: /whats-new.html
+      entries:
+        - title: What's new
+          url: /whats-new.html
     - title: Get started
       entries:
         - title: Learn about BlueXP replication
@@ -21,11 +23,11 @@ sidebar:
           url: /task-replicating-data.html
     - title: Manage data replication
       url: /task-managing-replication.html
-    - title: Concepts
+    - title: Learn more
       entries:
-        - title: Replication policies
+        - title: Learn about replication policies
           url: /concept-replication-policies.html
-        - title: Backup policies
+        - title: Learn about backup policies
           url: /concept-backup-policies.html
     - title: Knowledge and support
       entries:

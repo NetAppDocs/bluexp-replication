@@ -5,7 +5,7 @@ keywords: snapvault, archive, archiving, retention
 summary: Unlike Mirror policies, Backup SnapVault policies replicate specific Snapshot copies to a destination volume. It is important to understand how Backup policies work if you want to use your own policies instead of the default policies.
 ---
 
-= Learn about replication policies
+= Learn about backup policies
 :hardbreaks:
 :nofooter:
 :icons: font
