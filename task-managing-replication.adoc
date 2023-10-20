@@ -5,7 +5,7 @@ keywords: replication policy, policy, replication, replicating, snapmirror, snap
 summary: After you set up data replication between two systems, you can manage the data replication schedule and relationship from BlueXP.
 ---
 
-= Manage schedules and relationships
+= Manage data replication
 :hardbreaks:
 :nofooter:
 :icons: font
