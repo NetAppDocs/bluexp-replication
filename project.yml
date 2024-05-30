@@ -39,23 +39,4 @@ sidebar:
 product-family:
   name: BlueXP
   repo: bluexp-family
-homepage:
-  tiles:
-    - title: Get started
-      links:
-        - title: Learn about BlueXP replication
-          url: concept-replication.html
-        - title: Set up data replication
-          url: task-replicating-data.html
-    - title: Use BlueXP replication
-      links:
-        - title: Manage data replication
-          url: task-managing-replication.html
-    - title: Blogs & community
-      links:
-        - title: NetApp Community
-          url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-        - title: BlueXP blog
-          url: https://cloud.netapp.com/blog
-        - title: Cloud webinars
-          url: https://cloud.netapp.com/events
+
