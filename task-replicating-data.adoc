@@ -48,7 +48,7 @@ Requirements specific to ONTAP clusters::
 
 * ONTAP clusters must meet additional subnet, port, firewall, and cluster requirements.
 +
-https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html[View prerequisites for cluster peering in the ONTAP documentation^]
+https://docs.netapp.com/us-en/ontap/peering/prerequisites-cluster-peering-reference.html#connectivity-requirements[View prerequisites for cluster peering in the ONTAP documentation^]
 
 Requirements specific to Amazon FSx for ONTAP::
 * If Cloud Volumes ONTAP is part of the relationship, ensure connectivity between VPCs by enabling VPC peering or by using a Transit Gateway.
