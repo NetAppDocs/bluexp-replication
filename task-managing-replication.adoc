@@ -58,7 +58,7 @@ Any data written to the original source volume between the last data replication
 
 | Update | Starts an incremental transfer to update the destination volume.
 
-| Delete | Deletes the data protection relationship between the source and destination volumes, which means that data replication no longer occurs between the volumes. This action does not activate the destination volume for data access. This action also deletes the cluster peer relationship and the storage VM (SVM) peer relationship, if there are no other data protection relationships between the systems.
+| Delete | Deletes the data protection relationship between the source and destination volumes, which means that data replication no longer occurs between the volumes. This action does not activate the destination volume for data access. 
 |===
 
 .Result
