@@ -1,3 +1,6 @@
+:icons: font
+:imagesdir: ../media/
+
 === Support for Amazon FSx for ONTAP
 You can now replicate data from a Cloud Volumes ONTAP system or an on-premises ONTAP cluster to an Amazon FSx for ONTAP file system.
 
