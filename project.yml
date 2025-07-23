@@ -4,6 +4,7 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
+    harmony_enabled: true
   rss_page: "whats-new.html"
 sidebar:
   entries:
@@ -38,4 +39,3 @@ sidebar:
 product-family:
   name: BlueXP
   repo: bluexp-family
-
